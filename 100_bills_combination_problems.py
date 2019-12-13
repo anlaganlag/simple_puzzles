@@ -6,5 +6,5 @@ for n in range(1,len(bills)+1):
     for c in it.combinations(bills,n):
         if sum(c) == 100:
             make_100.append(c)
-print(make_100)
+print(set(make_100))
 
